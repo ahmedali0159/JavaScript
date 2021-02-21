@@ -1,0 +1,11 @@
+let number = [10, 20, 30, 40, 50]
+let [num1, num2, num3, num4, num5] = number
+console.log(num1);
+console.log(num2);
+
+
+//swap variables
+let a=10, b=20;
+[a,b] = [b,a]
+console.log(a);
+console.log(b);
